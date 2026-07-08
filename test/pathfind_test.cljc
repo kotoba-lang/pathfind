@@ -6,7 +6,7 @@
 
 (deftest namespace-loads
   (testing "the restored CLJC namespace loads"
-    (is (some? (the-ns 'pathfind)))))
+    (is (some? (find-ns 'pathfind)))))
 
 ;; mirrors `test_astar`
 (deftest test-astar
