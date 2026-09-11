@@ -12,7 +12,7 @@ location (for open 3D worlds). Designed for NPC navigation in
 ## Status
 
 Restored — ported from the original 206-line Rust `lib.rs`, with the
-original Rust unit test mirrored 1:1 in `test/pathfind_test.cljc` (+1
+original Rust unit test mirrored 1:1 in `test/pathfind_test.cljk` (+1
 smoke test) — 2 tests / 4 assertions, 0 failures. Pure data + pure
 functions throughout; no IO/GPU. The open list uses a linear-scan
 min-search over a plain vector (adequate for tilemap-sized grids)
