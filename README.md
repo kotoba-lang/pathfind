@@ -22,5 +22,5 @@ portable across JVM/JS.
 ## Develop
 
 ```bash
-clojure -M:test
+kbb -M:test
 ```
